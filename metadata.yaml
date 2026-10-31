@@ -1,0 +1,17 @@
+name: astrbot_plugin_breeze_local
+display_name: Breeze 本地语音
+desc: 把本机 Breeze-TTS-2.cpp 服务接入 AstrBot，直接拉取服务端音色库，支持指令合成与 LLM 按需调用。
+short_desc: 本地 Breeze TTS，拉取服务端音色库，/tts 与 LLM 工具
+version: v1.0.0
+author: 自用
+astrbot_version: ">=4.16,<5"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - discord
+  - slack
+  - lark
+  - dingtalk
+  - wecom
+  - satori
